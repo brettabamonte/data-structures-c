@@ -8,7 +8,7 @@ struct Array
     int length;
 };
 
-void Display(struct Array arr)
+void display(struct Array arr)
 {
     int i;
     printf("\nElements are\n");
@@ -18,14 +18,14 @@ void Display(struct Array arr)
     }
 }
 
-void Append(struct Array *arr, int x)
+void append(struct Array *arr, int x)
 {
     // Check if length is less than size of array
     if (arr->length < arr->size)
         arr->A[arr->length++] = x;
 }
 
-void Insert(struct Array *arr, int index, int x)
+void insert(struct Array *arr, int index, int x)
 {
     // Check index is valid
     if (index >= 0 && index <= arr->length)
@@ -38,7 +38,7 @@ void Insert(struct Array *arr, int index, int x)
     }
 }
 
-int Delete(struct Array *arr, int index)
+int delete(struct Array *arr, int index)
 {
     if (index >= 0 && index < arr->length)
     {
