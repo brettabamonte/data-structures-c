@@ -1,4 +1,4 @@
-# Data Structures & Algorithms Implmented In C
+# Data Structures & Algorithms Implemented In C
 
 This repository is for data structures and algorithms implemented in C.
 
